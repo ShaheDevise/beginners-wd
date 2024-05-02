@@ -1,0 +1,438 @@
+@media (max-width: 770px) {
+
+    header {
+        padding: 1rem 1.5rem;
+    }
+
+    .headerBanner {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .bigBlog {
+        padding: 1rem 1.5rem;
+    }
+
+    .blogFlex {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .smBlog {
+        padding: 5rem 1.5rem;
+    }
+
+    .navList{
+        position: absolute;
+        top: 0;
+        left: -450px;
+        padding: 10rem 3rem;
+        width: 400px;
+        height: 100vh;
+        background: #fff;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+        transition: all 0.5s ease-in-out;
+        z-index: 1000;
+
+    }
+
+    .navList.openNavSideBar{
+        left: 0;
+    }
+
+    .navList li{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .navList li a{
+        font-size: 2rem;
+        color: #f15a24;
+        padding: 1rem 1.5rem;
+        border-radius: 30px;
+    }
+
+    .navList li a.active{
+        color: #fff;
+        background: #f15a24;
+    }
+
+    .navList li a:hover{
+        background: #f15a24;
+        color: #fff;
+    }
+
+    .navList li a::after{
+        display: none;
+    }
+
+    .navList li a:hover::after,
+    .navList li a.active::after{
+        display: none;
+    }
+
+    .openNavBarBtn{
+        display: initial;
+    }
+
+    .openNavBarBtn:active{
+        opacity: 0.5;
+    }
+
+    .closeSideBar{
+        display: initial;
+    }
+
+    .closeSideBar:active{
+        opacity: 0.3;
+    }
+
+    /* testimonials */
+    .aboutSection {
+        padding: 2rem;
+    }
+
+    .testimonialsSection {
+        padding: 3rem 2rem;
+    }
+    /* testimonials */
+
+    /* members */
+
+    .members {
+        padding: 3rem 1rem;
+    }
+
+    .headingPara {
+        text-align: center;
+    }
+    /* members */
+
+    /* contact */
+    .contact {
+        padding: 3rem 1rem;
+    }
+    /* contact end */
+
+    /* footer */
+    footer {
+        padding: 2rem 1rem;
+    }
+
+    
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footerLeftSide {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    /* footer end */
+    
+}
+/* tablet view */
+
+/* iPhone SE */
+@media (max-width: 377px) {
+    
+    header {
+        padding: 1rem;
+    }
+
+    .logoHeader {
+        max-width: 150px;
+    }
+
+    .followBtn {
+        padding: 0.5rem 1rem;
+        border: none;
+        font-size: 1rem;
+    }
+
+    .openNavBarBtn {
+        font-size: 1rem;
+    }
+
+    .headerBanner {
+        width: 100%;
+        padding: 1rem;
+    }
+    .bigBlog {
+        padding: 1rem;
+    }
+
+    /* testimonials */
+    .headingTitle {
+        font-size: 2rem;
+    }
+
+    .headingPara {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .aboutSection {
+        padding: 1rem;
+    }
+
+    .aboutSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutLeftHeadingTitle {
+        font-size: 3rem;
+    }
+
+    .aboutLeft {
+        width: 100%;
+    }
+
+    .aboutRight {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .testimonialsSection {
+        padding: 3rem 1rem;
+    }
+
+    .testimonialsBox {
+        padding: 0px;
+        border-radius: 0px;
+        background: none;
+        box-shadow: none;
+        margin-bottom: 3rem;
+    }
+    /* testimonials end */
+
+    .contactLeft {
+        background: none;
+        border: none;
+    }
+
+    .letsContact {
+        font-size: 1.5rem;
+    }
+
+    .contactInput input, textarea{
+        background: #f2f2f2;
+    }
+    
+}
+/* iPhone SE */
+
+/* iPhone 12 pro */
+@media (max-width: 394px) {
+
+    header {
+        padding: 0.5rem;
+    }
+
+    .logoHeader {
+        max-width: 150px;
+    }
+
+    .headerBanner {
+        padding: 0.5rem;
+    }
+
+    .bigBlog {
+        padding: 1rem 0.5rem;
+    }
+
+    .smBlog {
+        padding: 2rem 0.5rem;
+    }
+
+    /* testimonials */
+    .headingTitle {
+        font-size: 2rem;
+    }
+
+    .headingPara {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .aboutSection {
+        padding: 1rem;
+    }
+
+    .aboutSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutLeftHeadingTitle {
+        font-size: 3rem;
+    }
+
+    .aboutLeft {
+        width: 100%;
+    }
+
+    .aboutRight {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .testimonialsSection {
+        padding: 3rem 1rem;
+    }
+
+    .testimonialsBox {
+        padding: 0px;
+        border-radius: 0px;
+        background: none;
+        box-shadow: none;
+        margin-bottom: 3rem;
+    }
+    /* testimonials end */
+
+    .contactLeft {
+        background: none;
+        border: none;
+    }
+
+    .letsContact {
+        font-size: 1.5rem;
+    }
+
+    .contactInput input, textarea{
+        background: #f2f2f2;
+    }
+    
+}
+/* iPhone 12 pro */
+
+/* Samsung  */
+@media (max-width: 414px) {
+
+    header {
+        padding: 0.5rem;
+    }
+
+    .logoHeader {
+        max-width: 150px;
+    }
+
+    .headerBanner {
+        padding: 0.5rem;
+    }
+
+    .bigBlog {
+        padding: 1rem 0.5rem;
+    }
+
+    .smBlog {
+        padding: 2rem 0.5rem;
+    }
+
+    .footerGrids3 {
+        grid-template-columns: 2.5fr;
+    }
+    
+}
+/* Samsung  */
+
+/* iPhone 14 Pro Max*/
+@media (max-width: 433px) {
+
+    header {
+        padding: 0.5rem;
+    }
+
+    .logoHeader {
+        max-width: 150px;
+    }
+
+    .headerBanner {
+        padding: 0.5rem;
+    }
+
+    .bigBlog {
+        padding: 1rem 0.5rem;
+    }
+
+    .smBlog {
+        padding: 2rem 0.5rem;
+    }
+    
+    .footerGrids3 {
+        grid-template-columns: 2.5fr;
+    }
+
+    /* testimonials */
+    .headingTitle {
+        font-size: 2rem;
+    }
+
+    .headingPara {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .aboutSection {
+        padding: 1rem;
+    }
+
+    .aboutSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutLeftHeadingTitle {
+        font-size: 3rem;
+    }
+
+    .aboutLeft {
+        width: 100%;
+    }
+
+    .aboutRight {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .testimonialsSection {
+        padding: 3rem 1rem;
+    }
+
+    .testimonialsBox {
+        padding: 0px;
+        border-radius: 0px;
+        background: none;
+        box-shadow: none;
+        margin-bottom: 3rem;
+    }
+    /* testimonials end */
+
+    .contactLeft {
+        background: none;
+        border: none;
+    }
+
+    .letsContact {
+        font-size: 1.5rem;
+    }
+
+    .contactInput input, textarea{
+        background: #f2f2f2;
+    }
+    
+}
+/* iPhone 14 Pro Max */
